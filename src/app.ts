@@ -41,7 +41,7 @@ class App {
             try {
                 const response = await axios.get('https://gateway.marvel.com/v1/public/characters', {
                     params: {
-                        apikey: '1ab791b522e72b2bd13eae61b137ba76', // Substitua pela sua chave de API Marvel
+                        apikey: '1ab791b522e72b2bd13eae61b137ba76', 
                     }
                 });
                 const characters = response.data.data.results;
